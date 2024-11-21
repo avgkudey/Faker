@@ -19,6 +19,23 @@ final class PersonTest extends TestCase
         }
     }
 
+    public function testMaleName(): void
+    {
+        for ($i = 0; $i < 100; ++$i) {
+            $name = $this->faker->name('male');
+
+            self::assertGreaterThan(0, strlen($name));
+        }
+    }
+    public function testFeMaleName(): void
+    {
+        for ($i = 0; $i < 100; ++$i) {
+            $name = $this->faker->name('female');
+
+            self::assertGreaterThan(0, strlen($name));
+        }
+    }
+
     public function testNicNumber(): void
     {
         for ($i = 0; $i < 100; ++$i) {
