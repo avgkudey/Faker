@@ -481,6 +481,18 @@ use Faker\Container\ContainerInterface;
  *
  * @method string phoneNumber()
  *
+ * @property string $mobileNumber
+ *
+ * @method string mobileNumber()
+ *
+ * @property string $nicNumber
+ *
+ * @method string nicNumber()
+ *
+ * @property string $nicNumberOld
+ *
+ * @method string nicNumberOld()
+ *
  * @property string $e164PhoneNumber
  *
  * @method string e164PhoneNumber()
